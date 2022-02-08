@@ -18,7 +18,7 @@ Das Netzwerk ist ein two-mode Akteursnetzwerk.
 # EDGE-Attribute
 
 id 
-(identisch mit edgelist, aber hier nur einmalige Nennung)
+(identisch mit nodelist, aber hier nur einmalige Nennung)
 
 from 
 initiierender Knoten
@@ -52,56 +52,45 @@ etc.
 
 7 = Studien- bzw. (lÃ¤ngere) Aufenthaltsort(e) in In- und Ausland
 
-year 
-(Bezieht sich auf das Jahr, in dem die Variable relationship erhoben wurde)
+year (Bezieht sich auf das Jahr, in dem die Variable relationship erhoben wurde)
 
 # NODE-Attribute
 
-id 
-(identisch mit edgelist, aber hier nur einmalige Nennung)
+id (identisch mit edgelist, aber hier nur einmalige Nennung)
 
-name_short 
-(Nachname)
+name_short (Nachname)
 
-name 
-(voller Name)
+name (voller Name)  
+z.B. Franziska_Brantner
 
-type 
+type   
 (0 = Person, 1 = Organisation/Ort/Verband etc.)
 
-sex 
-(Geschlecht)
+sex (Geschlecht)  
+1 = weiblich  
+2 = männlich  
+3 = divers  
 
-birth 
-(Geburtsjahr)
+birth (Geburtsjahr)  
+Als ganze Zahl angeben
 
-position 
-(jetzige Position, z.B. StaatssekretÃ¤r:in, Minister)
+position (jetzige Position, z.B. StaatssekretÃ¤r:in, Minister)  
 
-education 
-(hÃ¶chster Bildungsabschluss)
+education (hÃ¶chster Bildungsabschluss)
 
-subject 
-(Fachrichtung bei Studium/Promotion)
+subject (Fachrichtung bei Studium/Promotion)
 
-party 
-(ParteizugehÃ¶rigkeit)
+party (ParteizugehÃ¶rigkeit)
 
-religion 
-(Religion)
+religion (Religion)
 
-kids 
-(Anzahl der Kinder)
+kids (Anzahl der Kinder)
 
-twitter 
-(Anzahl follower)
+twitter (Anzahl follower)
 
-instagram  
-(Anzahl follower)
+instagram  (Anzahl follower)
 
-facebook 
-(Anzahl follower)
+facebook (Anzahl follower)
 
-youtube  
-(Anzahl Abonnenten)
+youtube  (Anzahl Abonnenten)
 
