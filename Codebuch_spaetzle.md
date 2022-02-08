@@ -56,86 +56,52 @@ year
 (Bezieht sich auf das Jahr, in dem die Variable relationship erhoben wurde)
 
 # NODE-Attribute
-id (identisch mit edgelist, aber hier nur einmalige Nennung),
-name_short (Nachname)
-name (voller Name)
-type (0 = Person, 1 = Organisation/Ort/Verband etc.),
-sex (Geschlecht)
-birth (Geburtsjahr)
-position (jetzige Position, z.B. StaatssekretÃ¤r:in, Minister)
-education (hÃ¶chster Bildungsabschluss)
-subject (Fachrichtung bei Studium/Promotion)
-party (ParteizugehÃ¶rigkeit)
-religion (Religion)
-kids (Anzahl der Kinder)
-twitter (Anzahl follower)
-instagram (Anzahl follower)
-facebook (Anzahl follower)
-youtube (Anzahl Abonnenten)
 
-id
-Identische ID wie aus der edgelist zur Identifikation der Knoten. In diesem Fall sind alle personenbezogenen Daten anonymisiert von 1 bis 38.
+id 
+(identisch mit edgelist, aber hier nur einmalige Nennung)
 
-name numerische ID
+name_short 
+(Nachname)
 
-name_first Vorname abgekürzt, z.B. für Visualiserung, falls der Name zu lange ist
+name 
+(voller Name)
 
-sex
-Bitte geben Sie ihr Geschlecht an:
-1 = weiblich
-2 = männlich
-3 = divers
+type 
+(0 = Person, 1 = Organisation/Ort/Verband etc.)
 
-crpr*
-Welche Studienrichtung haben Sie vertieft?
-1 = CR
-2 = PR
+sex 
+(Geschlecht)
 
-height
-Größe in cm
+birth 
+(Geburtsjahr)
 
-weight
-Gewicht in kg
+position 
+(jetzige Position, z.B. StaatssekretÃ¤r:in, Minister)
 
-age_real
-Alter in natürlichen Zahlen.
+education 
+(hÃ¶chster Bildungsabschluss)
 
-age
-Bitte geben Sie Ihr Alter an:
-1 = bis 20 Jahre
-2 = 21 bis 22 Jahre
-3 = 23 bis 24 Jahre
-4 = 25 und älter
+subject 
+(Fachrichtung bei Studium/Promotion)
 
-smoke
-Rauchen Sie mindestens ein Mal pro Woche?
-1 = nein
-2 = ja
+party 
+(ParteizugehÃ¶rigkeit)
 
-tatoo
-Tatoo vorhanden?
-1 = nein
-2 = ja
+religion 
+(Religion)
 
-phone
-1 = android
-2 = iOS/iphone
+kids 
+(Anzahl der Kinder)
 
-eyes
-Welche Augenfarbe?
-1 = grün,
-2 = blau,
-3 = braun,
-4 = blau.
+twitter 
+(Anzahl follower)
 
-hair
-Welche Haarfarbe?
-1 = braun,
-2 = schwarz,
-3 = blond,
-4 = rot.
+instagram  
+(Anzahl follower)
 
-location Wohnort, als string/characters codiert
+facebook 
+(Anzahl follower)
 
-county
-Bundesland, als string/characters codiert
+youtube  
+(Anzahl Abonnenten)
+
