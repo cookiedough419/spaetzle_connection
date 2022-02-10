@@ -81,9 +81,9 @@ education (hÃ¶chster Bildungsabschluss)
 subject (Fachrichtung bei Studium/Promotion)
 
 party (ParteizugehÃ¶rigkeit)  
-1 = gruene
-2 = fdp
-3 = spd
+1 = gruene  
+2 = fdp  
+3 = spd  
 
 religion (Religion)
 
