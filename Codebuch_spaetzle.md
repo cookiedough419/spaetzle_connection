@@ -61,7 +61,7 @@ id (identisch mit edgelist, aber hier nur einmalige Nennung)
 name_short (Nachname)
 
 name (voller Name)  
-z.B. Franziska_Brantner
+z.B. FranziskaBrantner
 
 type   
 (0 = Person, 1 = Organisation/Ort/Verband etc.)
@@ -80,7 +80,10 @@ education (hÃ¶chster Bildungsabschluss)
 
 subject (Fachrichtung bei Studium/Promotion)
 
-party (ParteizugehÃ¶rigkeit)
+party (ParteizugehÃ¶rigkeit)  
+1 = gruene
+2 = fdp
+3 = spd
 
 religion (Religion)
 
